@@ -23,9 +23,9 @@ public class Animal {
 	
 	public static String totalPorTipo(){
 		
-		return	("Mamiferos: " + (Mamifero.getMamiferos().size()) + " Aves: " + (Ave.getAves().size()) 
-				+ " Reptiles: " + (Reptil.getReptiles().size()) + " Peces: " + (Pez.getPeces().size()) 
-				+ " Anfibios: " +  (Anfibio.getAnfibios().size()));
+		return	("Mamiferos: " + (Mamifero.getMamiferos().size()) + "\nAves: " + (Ave.getAves().size()) 
+				+ "\nReptiles: " + (Reptil.getReptiles().size()) + "\nPeces: " + (Pez.getPeces().size()) 
+				+ "\nAnfibios: " +  (Anfibio.getAnfibios().size()));
 	}
 	
 	public String movimiento(){
